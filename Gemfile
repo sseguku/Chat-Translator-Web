@@ -54,6 +54,7 @@ group :production do
   #postgres gem
   gem 'pg'
   gem 'rails_12factor'
+  gem 'heroku-deflater'   
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
